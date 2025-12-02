@@ -15,7 +15,7 @@ jobs:
       - name: set up PHP
         uses: shivammathur/setup-php@v2
         with:
-        php-version:'8.4'
+          php-version:'8.4'
 
       - name: Run basic PHP lint
         run: php -l index.php
